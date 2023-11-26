@@ -19,14 +19,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyCupertinoApp extends StatelessWidget {
-  const MyCupertinoApp({Key? key});
 
-  @override
-  Widget build(BuildContext context) {
-    return CupertinoApp(
-      debugShowCheckedModeBanner: false, // Remove the debug banner
-      home: CurrencyConverterCupertinoPage(),
-    );
-  }
-}
